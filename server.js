@@ -348,7 +348,6 @@ MongoClient.connect(connetToZeroHoneyMongoDb, function (err, client) {
 
         res.json(result);
       });
-    
   });
 
   // 카테고리(대분류,소분류)정보를 받고 ecc list를 전달하는 api
